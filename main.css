@@ -1,6 +1,18 @@
 body{
-    background-color: blue;
+    background-color: rgb(129, 129, 227);
 }
 p{
     color: white;
+}
+h1, h2 {
+    color: white;
+}
+p::first-letter{
+    color: white;
+    font-size: 40px;
+}
+a:hover{
+    color: gold;
+    border: gold 2px solid;
+    text-decoration: underline;
 }
